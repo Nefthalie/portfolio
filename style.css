@@ -160,7 +160,7 @@ section p {
 }
 
 footer {
-  background-color: #1d354d; background-position-y:bottom;
+  background-color: #355081; background-position-y:bottom;
   color: rgb(0, 0, 0);
   width: 100%;
   height: 20px;
@@ -252,7 +252,11 @@ body {
  border-radius: 10px;
 }
 
-@media 
+@media screen and (max-width: 480px) {
+  .container {
+    width: 95%; /* Further adjust container width for even smaller screens */
+  }
+}
 
 body {
   font-family: 'Times New Roman', Times, serif; font-size: 100%;
@@ -334,7 +338,7 @@ header {
     padding: 10px 20px;
     text-align: center;
     font-size: 25px;
-    margin: 4px 2px;
+    margin: 50px 20px;
     cursor: pointer;
     border-radius: 10px
   }
@@ -416,7 +420,7 @@ section p {
 }
 
 footer {
-  background-color: #1d354d; background-position-y:bottom;
+  background-color: #355081; background-position-y:bottom;
   color: rgb(0, 0, 0);
   width: 100%;
   height: 20px;
@@ -507,3 +511,4 @@ body {
  background-color: #4CAF50;
  border-radius: 10px;
 }
+
