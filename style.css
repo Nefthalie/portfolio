@@ -1,0 +1,509 @@
+body {
+  font-family: 'Times New Roman', Times, serif; font-size: 100%;
+  margin: 20
+  padding: 200px;
+}
+
+header img {
+  border: none;
+  padding: 0px; 
+  border-radius: 50%;
+}
+
+.icon-container head {
+  width: 200px;
+  height: 200px;
+}
+.icon-container head img {
+  width: 100%;
+  height: 100%;
+  margin: 40px;
+}
+
+header {
+  background-color:#355081;
+  color: #8a8383;
+  text-align: center;
+  padding: 0px;
+  margin:0px
+  } 
+
+  @keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%);
+      opacity: 1;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  header {
+    animation: slideInFromLeft 6s ease-out;
+  }
+  .header {
+    color: rgb(58, 190, 168);
+    font-size: 35px;
+    font-style: normal;
+  }
+  
+  @keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%);
+      opacity: 1;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  .header {
+    animation: slideInFromLeft 3s ease-out;
+  }
+
+  .profile-button {
+    color: green;
+  }
+
+  .my-button {
+    position:absolute;
+  top: 15%;
+  left: 1.5%;
+  transform: translate(-15%, -1.5%);
+    background-color: #4CAF50;
+    color: black
+    border= none;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 25px;
+    margin: 10px 2px;
+    cursor: pointer;
+    border-radius: 10px
+  }
+  
+  .my-button:hover {
+    background-color: white;
+  }
+
+.menu {
+background-color:#355081;
+overflow: hidden;
+}
+
+.menu a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: left;
+  padding: 14px 16px;
+  text-decoration:solid;
+  background-color: #4CAF50;
+}
+
+.menu a:hover {
+  background-color:white;
+  font-size: 20px;
+}
+
+.menu img {
+  width: 31px;
+  height: 31px;
+  border: none;
+}
+
+.menu a.active {
+  background-color: #8a8383;
+  font-size: 20px;
+  width: 19.5%;
+  height: 35px;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 0px;
+  font-weight: 20px;
+}
+
+nav ul li a {
+  text-transform: initial;
+  font-size: 150%;
+  color: rgb(58, 190, 168);
+  margin: 10px;
+}
+
+.section {
+  margin: 0px;
+  text-align: left;
+  padding: 0px;
+  font-size: 20px;
+}
+
+section h2 {
+  margin: 10px;
+  font-size: 35px;
+}
+
+h3 {
+  margin: 10px;
+  font-size: 34px;
+}
+
+section p {
+  margin: 10px;
+  font-size: 30px;
+}
+
+.section footer {
+  margin: 10px
+}
+
+footer {
+  background-color: #1d354d; background-position-y:bottom;
+  color: rgb(0, 0, 0);
+  width: 100%;
+  height: 20px;
+}
+
+.animated-text {
+  animation: slideInFromLeft 8s ease-out;
+}
+
+ 
+footer h4 {
+  text-align: left;
+  margin: 10px;
+  color:black
+}
+
+@keyframes typing {
+  from { width: 0;}
+  to { width: 100%;}
+}
+
+.typing-text {
+  overflow: left;
+  border-left: .20em solid #4CAF50;
+  white-space:nowrap;
+  margin: 0 auto;
+  animation: typing 3s steps(500, end);
+}
+
+footer p {
+  margin: 10px
+}
+
+.icon-btn {
+  background-color: #007bff;
+  border: 1px solid #007bff;
+  color: #333333;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.icon-btn:hover {
+  background-color: #b1bcc9;
+}
+
+.icon-btn.active {
+  background-color: #cfdae6;
+  color: #007bff;
+}
+
+.icon-container {
+  width: 70px;
+  height: 70px;
+}
+.icon-container img {
+  width: 100%;
+  height: 100%;
+}
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  animation: gradientBackground 8s infinite;
+  background-size: 400% 400%;
+  background-image: linear-gradient(-90deg, rgb(52, 111, 129), rgb(150, 216, 150), gray)
+}
+
+@keyframes gradientBackground {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon img{
+ width: 40px;
+ height: 40px;
+ background-color: #4CAF50;
+ border-radius: 10px;
+}
+
+@media 
+
+body {
+  font-family: 'Times New Roman', Times, serif; font-size: 100%;
+  margin: 20
+  padding: 200px;
+}
+
+header img {
+  border: none;
+  padding: 0px; 
+  border-radius: 50%;
+}
+
+.icon-container head {
+  width: 200px;
+  height: 200px;
+}
+.icon-container head img {
+  width: 100%;
+  height: 100%;
+  margin: 40px;
+}
+
+header {
+  background-color:#355081;
+  color: #8a8383;
+  text-align: center;
+  padding: 0px;
+  margin:0px
+  } 
+
+  @keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%);
+      opacity: 1;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  header {
+    animation: slideInFromLeft 6s ease-out;
+  }
+  .header {
+    color: rgb(58, 190, 168);
+    font-size: 35px;
+    font-style: normal;
+  }
+  
+  @keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%);
+      opacity: 1;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  .header {
+    animation: slideInFromLeft 3s ease-out;
+  }
+
+  .profile-button {
+    color: green;
+  }
+
+  .my-button {
+    position:absolute;
+  top: 15%;
+  left: 1.5%;
+  transform: translate(-15%, -1.5%);
+    background-color: #4CAF50;
+    color: black
+    border= none;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 25px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px
+  }
+  
+  .my-button:hover {
+    background-color: white;
+  }
+
+.menu {
+background-color:#355081;
+overflow: hidden;
+}
+
+.menu a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: left;
+  padding: 14px 16px;
+  text-decoration:solid;
+  background-color: #4CAF50;
+}
+
+.menu a:hover {
+  background-color:white;
+  font-size: 20px;
+}
+
+.menu img {
+  width: 31px;
+  height: 31px;
+  border: none;
+}
+
+.menu a.active {
+  background-color: #8a8383;
+  font-size: 20px;
+  width: 19.5%;
+  height: 35px;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 0px;
+  font-weight: 20px;
+}
+
+nav ul li a {
+  text-transform: initial;
+  font-size: 150%;
+  color: rgb(58, 190, 168);
+  margin: 10px;
+}
+
+.section {
+  margin: 0px;
+  text-align: left;
+  padding: 0px;
+  font-size: 20px;
+}
+
+section h2 {
+  margin: 10px;
+  font-size: 35px;
+}
+
+h3 {
+  margin: 10px;
+  font-size: 34px;
+}
+
+section p {
+  margin: 10px;
+  font-size: 30px;
+}
+
+.section footer {
+  margin: 10px
+}
+
+footer {
+  background-color: #1d354d; background-position-y:bottom;
+  color: rgb(0, 0, 0);
+  width: 100%;
+  height: 20px;
+}
+
+.animated-text {
+  animation: slideInFromLeft 8s ease-out;
+}
+
+ 
+footer h4 {
+  text-align: left;
+  margin: 10px;
+  color:black
+}
+
+@keyframes typing {
+  from { width: 0;}
+  to { width: 100%;}
+}
+
+.typing-text {
+  overflow: left;
+  border-left: .20em solid #4CAF50;
+  white-space:nowrap;
+  margin: 0 auto;
+  animation: typing 3s steps(500, end);
+}
+
+footer p {
+  margin: 10px
+}
+
+.icon-btn {
+  background-color: #007bff;
+  border: 1px solid #007bff;
+  color: #333333;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.icon-btn:hover {
+  background-color: #b1bcc9;
+}
+
+.icon-btn.active {
+  background-color: #cfdae6;
+  color: #007bff;
+}
+
+.icon-container {
+  width: 70px;
+  height: 70px;
+}
+.icon-container img {
+  width: 100%;
+  height: 100%;
+}
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  animation: gradientBackground 8s infinite;
+  background-size: 400% 400%;
+  background-image: linear-gradient(-90deg, rgb(52, 111, 129), rgb(150, 216, 150), gray)
+}
+
+@keyframes gradientBackground {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon img{
+ width: 40px;
+ height: 40px;
+ background-color: #4CAF50;
+ border-radius: 10px;
+}
